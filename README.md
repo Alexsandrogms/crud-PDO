@@ -28,7 +28,7 @@ among others
 # Installation and execution
 
 1. Clone this repository by running: <br>
-      `https://github.com/Alexsandrogms/crud-PDO.git`
+      `https://github.com/Alexsandrogms/crud-pdo.git`
 2. Navigate to the directory, already inside the directory, execute the commands below.
 3. Open the server, navigate to the 'model' directory in your browser and access the 'createDatabase' file to create the database to be used.
 4. If you have any further questions, consult the documentation [PHP-Docs](https://www.php.net/docs.php).
