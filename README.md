@@ -15,10 +15,6 @@
 
 </div>
 
-<p align="center">
- :rocket: Semana OmniStack 11.0 :rocket:
-<p>
-
 # Pre-requisites
 
 What you need to start the project:
@@ -49,7 +45,7 @@ illustrations used in the application were taken from the site: [unDraw](https:/
 
 </p>
 
-This project is under the MIT license. Read morea [LICENÇA](https://github.com/Alexsandrogms/crud-PDO/LICENSE.md) for details.
+This project is under the MIT license. Read morea [LICENÇA](https://github.com/Alexsandrogms/crud-PDO/blob/master/LICENSE.md) for details.
 
 ---
 
