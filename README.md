@@ -1,5 +1,5 @@
 <div align='center'>
-<img src='./src/assets/php-logo.svg' width="300px"/>
+<img src='./public/php-logo.svg' width="300px"/>
 <p>
     CRUD made with PHP for academic purposes
 </p> 
