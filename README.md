@@ -36,6 +36,7 @@ among others
 # Built with the following technologies:
 
 - [PHP](https://www.php.net/) - PHP é uma linguagem popular de script de uso geral, especialmente adequada ao desenvolvimento da Web.
+- [Materialize](https://materializecss.com/) - Materialize is a modern responsive CSS framework based on Material Design by Google.
 
 ---
 
