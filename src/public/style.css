@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body,
+html {
+  background: #fafafa;
+  font-family: "Roboto", sans-serif;
+}
+
+.container header h3 {
+  border-bottom: 1px solid;
+  margin-bottom: 70px;
+  padding-bottom: 5px;
+}
+
+p#status {
+  font-size: 18px;
+  font-weight: 600;
+  color: #47c072;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.container .table .hidden {
+  display: none;
+  color: red;
+}
+
+.container .table {
+  height: 350px;
+  overflow: scroll;
+}
+
+.container .table td {
+  border-top: 1px solid #d8dcd6;
+  border-bottom: 1px solid #d8dcd6;
+}
+
+.container .table #qrcode {
+  width: 80px;
+  height: 80px;
+}
+
+.container .footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.container .add {
+  padding: 20px 0;
+}
+.container .add p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.container .footer a {
+  font-weight: 500;
+}
+
+@media (max-width: 400px) {
+  .container .input-field.col.s8,
+  .container .col.s8.center {
+    width: 100%;
+  }
+  .container header h3 {
+    margin-bottom: 40px;
+  }
+  p#status {
+    padding: 0 5px;
+    margin: 0;
+  }
+  .container .table {
+    overflow: hidden;
+    height: 300px;
+  }
+  .container .add,
+  .container .add p {
+    padding: 0;
+  }
+}

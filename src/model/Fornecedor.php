@@ -1,53 +1,60 @@
 <?php
 
-//* Criando classe para guardar e pegar dados dos fornecedores
-class Fornecedor {
-    //* Criando variaveis privadas
-    private $cod;
-    private $nome; 
-    private $email;
-    private $cnpj;
-    private $status;
+class Fornecedor
+{
+  private $name;
+  private $email;
+  private $cnpj;
+  private $state;
+  private $img_url;
 
-    //* Pegar o valor da variavel
-    public function getCod() {
-        return $this->cod;
-    }
-    //* Recebendo um valor é guardando na variavel
-    public function setCod($c) {
-        $this->cod = $c;
-    }
-    //* Pegar o valor da variavel
-    public function getNome() {
-        return $this->nome;
-    }
-    //* Recebendo um valor é guardando na variavel
-    public function setNome($n) {
-        $this->nome = $n;
-    }
-    //* Pegar o valor da variavel
-    public function getEmail() {
-        return $this->email;
-    }
-    //* Recebendo um valor é guardando na variavel
-    public function setEmail($e) {
-        $this->email = $e;
-    }
-    //* Pegar o valor da variavel
-    public function getCnpj() {
-        return $this->cnpj;
-    }
-    //* Recebendo um valor é guardando na variavel
-    public function setCnpj($c) {
-        $this->cnpj = $c;
-    }
-    //* Pegar o valor da variavel
-    public function getStatus() {
-        return $this->status;
-    }
-    //* Recebendo um valor é guardando na variavel
-    public function setStatus($s) {
-        $this->status = $s;
-    }
+  public function getName()
+  {
+    return $this->name;
+  }
 
+  public function setName(string $name)
+  {
+    $this->name = $name;
+  }
+
+  public function getEmail()
+  {
+    return $this->email;
+  }
+
+  public function setEmail(string $email)
+  {
+    $this->email = $email;
+  }
+
+  public function getCNPJ()
+  {
+    return $this->cnpj;
+  }
+
+  public function setCNPJ(int $cnpj)
+  {
+    $this->cnpj = $cnpj;
+  }
+
+  public function getState()
+  {
+    return $this->state;
+  }
+
+  public function setState(int $state)
+  {
+    $this->state = $state;
+  }
+
+  public function getImgUrl()
+  {
+    return $this->img_url;
+  }
+
+  public function setImgUrl(string $url)
+  {
+    $this->img_url = $url;
+  }
 }
