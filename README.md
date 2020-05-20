@@ -40,12 +40,6 @@ among others
 
 ---
 
-<p>
-
-illustrations used in the application were taken from the site: [unDraw](https://undraw.co/).
-
-</p>
-
 This project is under the MIT license. Read morea [LICENÇA](https://github.com/Alexsandrogms/crud-PDO/blob/master/LICENSE.md) for details.
 
 ---
